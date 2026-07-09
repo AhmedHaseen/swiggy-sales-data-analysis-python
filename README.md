@@ -12,6 +12,14 @@ This project analyzes Swiggy sales data using Python to uncover sales trends, cu
 - Top states by revenue
 - Top dishes by total revenue
 
+## Key Insights
+
+- **Revenue Distribution:** Non-veg items contribute significantly to overall revenue compared to veg options.
+- **Peak Sales Days:** Certain days of the week show higher sales volumes, indicating demand patterns.
+- **Geographic Performance:** A few states dominate revenue generation, suggesting regional concentration.
+- **Top Performers:** Specific dishes consistently generate the highest revenue across all orders.
+- **Monthly Trends:** Sales patterns vary month-to-month, with identifiable peaks and troughs.
+
 ## Files
 
 - `Swiggy Sales Analysis.ipynb` - main analysis notebook
@@ -48,18 +56,3 @@ This project analyzes Swiggy sales data using Python to uncover sales trends, cu
 ### Top 5 Dishes by Revenue
 
 ![Top 5 Dishes](Images/Top%205%20Dishes.png)
-
-## How to Run
-
-1. Open `Swiggy Sales Analysis.ipynb` in Jupyter Notebook or VS Code.
-2. Make sure the dataset path points to `swiggy_data.xlsx`.
-3. Run the cells from top to bottom.
-
-## Notes
-
-- The project is intentionally simple and is suitable for a basic portfolio or learning project.
-- If you want to share or reuse it later, you can add a `requirements.txt` file with the Python packages used.
-
-## Status
-
-Project in progress.
